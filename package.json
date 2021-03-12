@@ -1,0 +1,27 @@
+{
+   "name": "partner-api",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "@types/passport": "^1.0.4",
+      "@types/passport-google-oauth20": "^2.0.4",
+      "body-parser": "^1.18.1",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "express": "^4.15.4",
+      "express-session": "^1.17.1",
+      "passport": "^0.4.1",
+      "passport-google-oauth20": "^2.0.0",
+      "pg": "^8.0.3",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.25"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
